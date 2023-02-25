@@ -1,5 +1,12 @@
 import "./bootstrap";
 import "../css/app.css";
+import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+import '@fortawesome/fontawesome-free/scss/brands.scss';
+import '@fortawesome/fontawesome-free/scss/regular.scss';
+import '@fortawesome/fontawesome-free/scss/solid.scss';
+import '@fortawesome/fontawesome-free/scss/v4-shims.scss';
+
+import "../assets/js/main.js";
 
 import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "react-query";
