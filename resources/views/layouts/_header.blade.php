@@ -3,7 +3,7 @@
         class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 shadow-sm shadow-green-200"
     >
         <div class="container flex flex-wrap items-center justify-between mx-auto">       
-                <a href="#"  class="flex items-center text-green-400">
+                <a href="#"  class="flex items-center text-green-600 font-bold">
                     <img src="{{ asset('images/logo.png') }}" alt="logo" class=" aspect-square mt-1" width="50" height="50">
                     Mada Annonce
                 </a>    
@@ -23,9 +23,9 @@
                     d="M4 6h16M4 12h16M4 18h16"
                 />
             </svg>
-            <div class=" hidden md:flex">
-            <a href="#" class=" btn-success mr-2 text-base">Se connecter</a>
-            <a href="#" class=" btn-success text-base">S'inscrire</a>
+            <div class="hidden md:flex">
+            <a href="#" class=" btn-success mr-2 text-base w-36">Se connecter</a>
+            <a href="#" class=" btn-success text-base w-36">S'inscrire</a>
 
             <!-- <a href="#" class=" mx-1 rounded-md shadow-sm shadow-green-300 text-green-400 px-3 border border-green-300 hover:bg-green-400 hover:text-gray-100 hover:border-gray-100 ">Se connecter</a>
             <a href="#" class=" mx-1 rounded-md shadow-sm shadow-green-300 text-green-400 px-3 border border-green-300 hover:bg-green-400 hover:text-gray-100 hover:border-gray-100">S'inscrire</a> -->
@@ -36,19 +36,17 @@
                     class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
                 >  
                     <li>
-                        <a class="md:p-4 py-1 block hover:text-green-600" href="#"
-                            >Annonces </a
-                        >
+                        <a class="md:p-4 py-1 block hover:text-green-600" href="#">Annonces </a>
                     </li>
                     <li>
-                        <a class="md:p-4 py-1 block hover:text-green-600" href="#"
-                            >Ajouter une annonce</a
-                        >
+                        <a class="md:p-4 py-1 block hover:text-green-600" href="#">Deposer une annonce</a>
                     </li>
-                    <li class=" md:hidden">
-                    <a href="#" class="  text-green-400 py-1 my-2">Se connecter</a>
-                    <a href="#" class="  text-green-400 py-1 my-2">S'inscrir</a>
-                </li>
+                    <li class="md:hidden">
+                    <a href="#" class=" py-1 my-2 block">Se connecter</a>
+                    </li>
+                    <li class="md:hidden">
+                        <a href="#" class=" py-1 my-2 block">S'inscrir</a>
+                    </li>
                 </ul>
             </div>
         </div>
