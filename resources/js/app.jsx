@@ -1,4 +1,4 @@
-import "./bootstrap";
+import Glide from "./glide";
 import "../css/app.css";
 import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 import "@fortawesome/fontawesome-free/scss/brands.scss";
@@ -25,3 +25,4 @@ if (document.querySelector("#recherche")) {
 }
 
 // ReactDOM.createRoot(document.getElementById("app")).render(<Home />);
+Glide.init();

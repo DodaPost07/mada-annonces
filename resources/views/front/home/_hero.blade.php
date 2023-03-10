@@ -1,4 +1,4 @@
-<section class="flex flex-col min-h-screen">
+<section class="flex flex-col md:mb-12">
     <!-- Hero Section Content -->
     <div class="text-center mx-auto">
         <h1 class="text-4xl font-semibold mt-16 text-green-600">Trouvez des annonces partout où vous êtes</h1>

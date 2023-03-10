@@ -1,6 +1,7 @@
 @extends('front.layouts.app')
 @section('content')
 @include('front.home._hero')
+@include('front.home._categorie')
 
 <!-- Hero Section -->
 <div class="flex flex-wrap justify-center gap-4 p-4">

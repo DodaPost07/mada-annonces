@@ -1,24 +1,27 @@
 @import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '@glidejs/glide/dist/css/glide.core.css';
+@import '@glidejs/glide/dist/css/glide.theme.min.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
     body{
         @apply bg-green-50;        
     }
     h1 {
-      @apply text-3xl;
+      @apply text-3xl text-green-600 font-medium;
     }
     h2 {
-      @apply text-2xl;
+      @apply text-2xl text-green-600 font-medium;
     }
     h3 {
-        @apply text-xl;
+        @apply text-xl text-green-600 font-medium;
     }
     h4 {
-        @apply text-lg;
+        @apply text-lg text-green-600 font-medium;
     }
     p {
         @apply text-gray-600;

@@ -13,8 +13,10 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
                 <div class="hidden md:flex">
-                    <a href="#" class=" btn-success mr-2 text-base w-36">Se connecter</a>
-                    <a href="#" class=" btn-success text-base w-36">S'inscrire</a>
+                    <a href="#"
+                        class=" flex sm:inline-flex justify-center items-center bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white font-medium py-2 font-sans text-center outline-none transition duration-100 px-5 mr-2 text-base w-36 uppercase">S'identifier</a>
+                    <a href="#"
+                        class=" flex sm:inline-flex justify-center items-center bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white font-medium py-2 font-sans text-center outline-none transition duration-100 px-5 text-base w-36 uppercase">S'inscrire</a>
 
                     <!-- <a href="#" class=" mx-1 rounded-md shadow-sm shadow-green-300 text-green-400 px-3 border border-green-300 hover:bg-green-400 hover:text-gray-100 hover:border-gray-100 ">Se connecter</a>
             <a href="#" class=" mx-1 rounded-md shadow-sm shadow-green-300 text-green-400 px-3 border border-green-300 hover:bg-green-400 hover:text-gray-100 hover:border-gray-100">S'inscrire</a> -->
