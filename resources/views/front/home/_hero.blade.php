@@ -8,5 +8,10 @@
             ciblée à Madagascar.</p>
         <!-- component -->
         <div id="recherche"></div>
+        <div class=" my-6 text-center">
+            <a href="#" class=" btn-error ">Deposer une annonce gratuit
+                <i class="fa-solid fa-circle-plus text-white ml-3"></i>
+            </a>
+        </div>
     </div>
 </section>

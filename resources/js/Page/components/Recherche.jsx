@@ -51,9 +51,9 @@ const Recherche = () => {
                 </select>
             </div>
             <div className="flex w-full text-center md:w-1/6 my-2 md:ml-3 ml-0">
-                <spa className="bg-red-600 py-2 px-5 text-white font-semibold rounded-lg hover:shadow-lg transition duration-3000 cursor-pointer   w-full md:mr-0 pr-6">
+                <span className="bg-red-600 py-2 px-5 text-white font-semibold rounded-lg hover:shadow-lg transition duration-3000 cursor-pointer   w-full md:mr-0 mr-6 pr-6">
                     Search
-                </spa>
+                </span>
             </div>
         </div>
     );

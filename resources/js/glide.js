@@ -17,5 +17,19 @@ export default {
             });
             homeCategorie.mount({ Breakpoints });
         }
+        if (document.querySelector("#annonceRecent")) {
+            const annonceRecent = new Glide("#annonceRecent", {
+                type: "carousel",
+                autoplay: 4000,
+                perView: 4,
+                breakpoints: {
+                    1494: { perView: 3 },
+                    1280: { perView: 2 },
+                    1024: { perView: 2 },
+                    780: { perView: 1 },
+                },
+            });
+            annonceRecent.mount({ Breakpoints });
+        }
     },
 };

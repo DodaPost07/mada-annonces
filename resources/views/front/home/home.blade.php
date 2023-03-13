@@ -2,6 +2,7 @@
 @section('content')
 @include('front.home._hero')
 @include('front.home._categorie')
+@include('front.home._annonces_recent')
 
 <!-- Hero Section -->
 <div class="flex flex-wrap justify-center gap-4 p-4">
