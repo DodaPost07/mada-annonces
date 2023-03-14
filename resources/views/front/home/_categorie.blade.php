@@ -28,11 +28,11 @@
             </ul>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left bg-green-500" data-glide-dir="<">
-                <i class="fa-solid fa-chevron-left text-white"></i>
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa-solid fa-chevron-left text-green-500 text-2xl"></i>
             </button>
-            <button class="glide__arrow glide__arrow--right bg-green-500" data-glide-dir=">">
-                <i class="fa-solid fa-chevron-right text-white "></i>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa-solid fa-chevron-right text-green-500 text-2xl "></i>
             </button>
         </div>
     </div>
